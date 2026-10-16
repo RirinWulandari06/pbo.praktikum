@@ -20,7 +20,7 @@ $produk->harga = 10000000;
 $produk->stok = 5;
 
 //hitung pajak
-$pajak = Produk::PAJAK * 100;// 11
+$pajak = Produk::PAJAK * 100;// 11%
 $jumlahPajak = $produk->harga * Produk:: PAJAK; // 1.1 juta
 
 //total
